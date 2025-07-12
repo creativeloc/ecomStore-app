@@ -19,7 +19,7 @@
 # misc
 .DS_Store
 *.pem
-/public/images2/
+/public/images-alt/
 
 # debug
 npm-debug.log*

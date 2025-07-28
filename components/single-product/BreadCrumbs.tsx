@@ -13,20 +13,21 @@ const BreadCrumbs = ({ name }: { name: string }) => {
       <BreadcrumbList>
         <BreadcrumbItem>
           <BreadcrumbLink href="/" className="capitalize text-lg">
-            Home
+            home
           </BreadcrumbLink>
         </BreadcrumbItem>
-        <BreadcrumbSeparator />
 
+        <BreadcrumbSeparator />
         <BreadcrumbItem>
           <BreadcrumbLink href="/products" className="capitalize text-lg">
-            Products
+            products
           </BreadcrumbLink>
         </BreadcrumbItem>
-        <BreadcrumbSeparator />
 
-        <BreadcrumbItem></BreadcrumbItem>
-        <BreadcrumbPage className="capitalize text-lg">{name}</BreadcrumbPage>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>
+          <BreadcrumbPage className="capitalize text-lg">{name}</BreadcrumbPage>
+        </BreadcrumbItem>
       </BreadcrumbList>
     </Breadcrumb>
   )

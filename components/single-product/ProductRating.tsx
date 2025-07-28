@@ -4,7 +4,7 @@ const ProductRating = ({ productId }: { productId: string }) => {
   // temp
   const rating = 4.2
 
-  // nom reviews
+  // num reviews
   const count = 25
 
   const className = `flex gap-1 items-center text-md mt-1 mb-4`
